@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.TopHead {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+  border-bottom: 2px solid #1e1f20;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.subTitle {
+  width: auto;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.subTitle:nth-child(1) {
+  padding-left: 1rem;
+}
+.subTitle:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.subTitle:hover {
+  color: #16b979;
+}
+
+.KBOX {
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  font-size: 16px;
+  color: white;
+  padding: 1rem;
+}
+
+.Kline {
+  width: 100%;
+  height: 100%;
+}
+
+.Infor {
+  width: 100%;
+  height: 100%;
+}
